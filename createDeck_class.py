@@ -18,10 +18,8 @@ def createDeck():
     #Card = [rank, value, suit, name]
     suits = ['Hearts', 'Spades', 'Clubs', 'Diamonds']
     rank = ['Ace', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten']
-    royal = ['Jack', 'Queen', 'King']
-    deck = [Card(rank[i2-1],i2,i) for i in suits for i2 in range(1,11)]
-    royal_cards = [Card(i2,10,i) for i in suits for i2 in royal]
-    deck += royal_cards
+    figures = ['Jack', 'Queen', 'King']
+    deck = [Card(rank[i2-1],i2,i) for i in suits for i2 in range(1,11)] + [Card(i2,10,i) for i in suits for i2 in figures]
     return deck
 
 deck = createDeck()
