@@ -475,9 +475,6 @@ while not done:
 
     #Decide the winner of the round
     elif not (player.part_turn or cpu.part_turn):
-        print('score:',player.now_score, 'display:',player.display_score)
-        print('score:',cpu.now_score, 'display:',cpu.display_score)
-        print()
         #If nobody blew up it's a direct points comparison
         if int(player.now_score) <= 21 and int(cpu.now_score) <= 21:
             #Player wins
