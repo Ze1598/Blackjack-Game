@@ -16,3 +16,11 @@ itself remained mostly the same, it was more of a case of using different dataty
 
 'createDeck_lists' and 'createDeck_class' are just scripts for creating the deck itself, while 'blackjack' and 'blackjackV2' \
 are the full game.
+
+Update logs:
+
+-(feb. 9th 2018): Added a version of the game created using Pygame, a 2D Python game engine. All the assets, in this case only sprites, were created by me.
+
+External references:
+
+Pygame: https://www.pygame.org/docs/
