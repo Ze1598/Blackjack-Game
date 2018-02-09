@@ -19,4 +19,8 @@ are the full game.
 
 Update logs:
 
--(feb. 9th 2018): Added a version of the game created using Pygame (https://www.pygame.org/docs/), a 2D Python game engine. All the assets, in this case only sprites, were created by me.
+-(feb. 9th 2018): Added a version of the game created using Pygame, a 2D Python game engine. All the assets, in this case only sprites, were created by me.
+
+External references:
+
+Pygame: https://www.pygame.org/docs/
